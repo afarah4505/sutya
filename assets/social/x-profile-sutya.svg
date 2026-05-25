@@ -1,0 +1,30 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="SUTYA X profile image">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1A102B"/>
+      <stop offset="55%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#9945FF"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#14F195"/>
+      <stop offset="100%" stop-color="#9945FF"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#bg)"/>
+  <circle cx="320" cy="80" r="54" fill="#14F195" opacity="0.2" filter="url(#soft)"/>
+  <circle cx="78" cy="318" r="64" fill="#D8B4FE" opacity="0.2" filter="url(#soft)"/>
+
+  <circle cx="200" cy="185" r="94" fill="#FDE68A"/>
+  <circle cx="164" cy="165" r="15" fill="#111827"/>
+  <circle cx="238" cy="165" r="15" fill="#111827"/>
+  <polygon points="200,190 248,210 200,232 152,210" fill="#FB923C"/>
+
+  <rect x="65" y="250" width="270" height="66" rx="33" fill="#0F172A" opacity="0.86"/>
+  <rect x="71" y="256" width="258" height="54" rx="27" fill="none" stroke="url(#glow)" stroke-width="2"/>
+
+  <text x="200" y="292" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#FFFFFF">$SUTYA</text>
+</svg>
