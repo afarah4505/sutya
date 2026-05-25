@@ -22,15 +22,10 @@ document.addEventListener('mouseup', () => {
 });
 
 // Contract address
-const CONTRACT_ADDRESS = 'TBA';
+const CONTRACT_ADDRESS = '6s93xLpSjcRmcXF3YWYc64rQvAiGWa9ZLvDyU4CWpump';
 
 // Copy contract address to clipboard
 function copyContract() {
-    if (CONTRACT_ADDRESS === 'TBA') {
-        showToast('Contract address coming soon.');
-        return;
-    }
-
     navigator.clipboard.writeText(CONTRACT_ADDRESS).then(() => {
         // Show success feedback
         showToast('Contract address copied! 🦆');
